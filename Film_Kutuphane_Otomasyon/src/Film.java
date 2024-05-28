@@ -5,11 +5,11 @@ public class Film {
     private int sure;
 
     // Kurucu Metod
-    public Film(int filmID, String baslik, String yayinTarihi, int sure) {
+    public Film(int filmID, String baslik, String yayinTarihi, String sure) {
         this.filmID = filmID;
         this.baslik = baslik;
         this.yayinTarihi = yayinTarihi;
-        this.sure = sure;
+        this.sure = Integer.parseInt(sure);
     }
 
     // Get ve Set Metodları
