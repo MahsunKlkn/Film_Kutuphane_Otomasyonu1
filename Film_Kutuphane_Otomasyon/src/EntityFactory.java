@@ -1,5 +1,5 @@
 public class EntityFactory {
-
+/*
     public static Object createEntity(String entityType, Object... params) {
         switch (entityType) {
             case "Film":
@@ -18,4 +18,6 @@ public class EntityFactory {
                 throw new IllegalArgumentException("Geçersiz nesne türü: " + entityType);
         }
     }
+    */
+
 }

@@ -86,8 +86,8 @@ public class Main {
         String sure = scanner.nextLine(); // Süreyi metin olarak al
 
         // Film nesnesini oluştur
-        Film film = (Film) EntityFactory.createEntity("Film", 1, filmAdi, yayinTarihi, sure);
+        EntityFactory1 filmFactory = new FilmFactory();
+        Film film = (Film) filmFactory.createEntity(1, filmAdi, yayinTarihi, sure);
         System.out.println("Film oluşturuldu: " + film.getBaslik());
     }
-
 }
